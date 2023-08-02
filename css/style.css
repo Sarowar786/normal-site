@@ -1,0 +1,205 @@
+
+/* 
+font-family: 'Cardo', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/* ======= Common css start ======= */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing:border-box;
+    font-family: 'Raleway', sans-serif;
+}
+.container{
+    max-width: 82%;
+}
+ol, ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+a{
+    text-decoration:none;
+    color: #000;
+}
+img{
+    vertical-align: middle;
+}
+h1,h2,h3,h4,h5,h6{ 
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+/* ======= Common css end ======= */
+
+/* ======= header part start ======= */
+.nav_part,
+.hero_part{
+    background: #31354f;
+}
+.nav-link{ 
+    color: #adaeb9;
+    padding:20px;
+    margin:0 25px;
+}
+
+.nav-link:hover{
+    color: #adaeb9;
+}
+/* ======= header part end ======= */
+
+/* ======= hero part start ======= */
+.hero_con{
+    padding: 100px 0 ;
+    color: white;
+    text-align: center;
+}
+.hero_con h1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+.btn1{
+    background: red;
+    color: #fff;
+    width: 200px; ;
+    height: 45px;
+    text-transform: uppercase;
+
+}
+.hero_con p{
+    margin: 20px ;
+}
+/* ======= hero part end ======= */
+
+/* ======= service part start ======= */
+.service_con{
+    padding: 120px 0;
+    text-align: center;
+}
+.service_icon p{
+    font-size: 18px;
+    color: #767b82;
+    padding: 0 20px;
+}
+.service_icon h4{
+    text-transform:uppercase;
+}
+.service_2{
+    padding-top: 65px;
+}
+/* ======= service part end ======= */
+
+/* ======= our team part start ======= */
+.ourteam_con{
+    padding-top: 100px;
+}
+.fa-brands{
+    border: 1px solid #c6cacc;
+    color: #c6cacc;
+    height: 42px;
+    width: 42px;
+    font-size: 25px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+
+/* ======= our team part end ======= */
+
+/* ======= other part start ======= */
+.other_part{
+    padding-top: 100px;
+}
+
+.box {
+    padding-left: 10%;
+    padding-right: 25%;
+    background: #53354a;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+.box .p{
+    font-family: 'Cardo', serif;
+    font-size: 23px;
+    padding-top: 20%;  
+}
+.box .pt-2{
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+.col-6{
+    padding-left: 0;
+    padding-right: 0;
+}
+.box1:hover{
+    background: white;
+}
+.box1{
+    height: 10px;
+    width: 10px;
+    background: rgb(172, 153, 153);
+    border-radius: 50%;
+    margin-left: 5px;
+    
+}
+.d-flex {
+    display: flex!important;
+    padding-left: 192px;
+    padding-top: 13px;
+}
+/* ======= other part end ======= */
+
+/* ======= other part end ======= */
+
+.Other_con_2 h4{
+    font-size: 30px;
+    font-weight: 100;
+    margin-top: 20px;
+}
+.Other_con_2 p{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.Other_con_2{
+    text-align: center;
+    padding: 95px 0;
+}
+/* ======= other part end ======= */
+
+/* ======= footer part start ======= */
+.footer_part{
+    background: #3a3e64;
+    padding: 70px 0 80px;
+}
+.footer_part .col-4{
+    text-align: center;
+}
+.footer_inner_con p{
+    color: #9092a7;
+    font-size: 15px;
+}
+.footer_inner_con h6{
+   color: #fff; 
+   text-transform: uppercase;
+}
+.footer_inner_con .logo{
+    color: #fff !important;
+}
+.footer p{
+    color: #75767a;
+}
+.footer{
+    background: #313454;
+    padding: 25px 0;
+}
+/* ======= footer part end ======= */
